@@ -4,7 +4,7 @@
 
 *Demonstrated proficiency here: (paste repo or codepen) and in Bootcamp HTML & CSS unit*
 
-- [ ] Solid Knowledge of common tag types and how to implement them - *Summerize*
+- [x] Solid Knowledge of common tag types and how to implement them - *Summerize*
 
       Document Structure
 
@@ -17,85 +17,59 @@
       Tables
 
 
-- [ ] Understands how the browser handles conflicting styles - *Summerize*
+- [x] Understands how the browser handles conflicting styles - *Summerize*
 
 
-- [ ] Understands how the DOM is laid out and is structured - *Summerize*
+- [x] Understands how the DOM is laid out and is structured - *Summerize*
 
 
-- [ ] Understands the difference between content & styling - *Summerize*
+- [x] Understands the difference between content & styling - *Summerize*
 
 
-- [ ] Understands that different browsers render and interpret things slightly differently and the need to test on commonly used platforms - - *Summerize and example*
+- [x] Understands that different browsers render and interpret things slightly differently and the need to test on commonly used platforms - - *Summerize and example*
 
 ##### Bootstrap
 
-- [ ] Knowledge of Bootstrap properties and design principles - *Summerize*
+- [x] Knowledge of Bootstrap properties and design principles - *Summerize*
 
 
-- [ ] Understands grid concept & how to manipulate it - *Summerize*
+- [x] Understands grid concept & how to manipulate it - *Summerize*
 
 
-- [ ] Can install either by CDN or local file - *Summerize*
+- [x] Can install either by CDN or local file - *Summerize*
 
 
 ​
 
 ### 2. MIDDLEWARE DEVELOPMENT
 
-- [ ] ##### JavaScript
+- [x] ##### JavaScript
 
       *Demonstrated proficiency here: (Paste example here repo or codepen)
+      
+      https://github.com/TechtonicGroup/Admin2/blob/develop/src/app/core/services/template-builder/template-builder.service.ts
 
 
-- [ ] Solid understanding of HTML & CSS - (Paste Example)
+- [x] Solid understanding of HTML & CSS - (Paste Example)
 
 
-- [ ] Understanding of browser runtime & where to inject scripts - *Summerize*
+- [x] Understanding of browser runtime & where to inject scripts - *Summerize*
 
 
-- [ ] Understanding of dynamic typing and how it makes using the language quick and easy - *Summerize*
+- [x] Understanding of dynamic typing and how it makes using the language quick and easy - *Summerize*
 
 
-- [ ] Understanding of Document Object Model - *Summerize*
+- [x] Understanding of Document Object Model - *Summerize*
 
 
-- [ ] Knowledge of JSON and working with JSON objects - *Summerize and example repo or codepen*
+- [x] Knowledge of JSON and working with JSON objects - *Summerize and example repo or codepen*
 
 
-- [ ] Knowledge on how to traverse the DOM for element handles - *Summerize and codepen of DOM traversal*
+- [x] Knowledge on how to traverse the DOM for element handles - *Summerize and codepen of DOM traversal*
 
 
-- [ ] Know how to structure native JavaScript classes (OOP, Pub/Sub) using prototype or object literal statements - *Summerize and codepen see below for example*
+- [x] Know how to structure native JavaScript classes (OOP, Pub/Sub) using prototype or object literal statements - *Summerize and codepen see below for example*
 
-      Function constructor:
-
-      ```
-      var Obj = function(name) {
-        this.name = name
-      }
-      var c = new Obj("hello");
-      ```
-
-      Function constructor + prototype:
-
-      ```
-      function myObj(){};
-      myObj.prototype.name = "hello";
-      var k = new myObj();
-      ```
-
-      Object literal:
-
-      ```
-      var contactDetails = {name: "Name", phone number: "111-222-3333", email: "test@techtonicgroup.com"}
-      ```
-
-      Object.create method:
-
-      ```
-      var a = Object.create(null);
-      ```
 
       ​
 
@@ -103,45 +77,48 @@
 
 - *Summerize and repo to example*
 
-
-- [ ] Understanding of asynchronous concepts and implications such as callbacks - *Summerize*
-
-
-- [ ] Ability to implement AJAX calls in a project - *Summerize and example*
+https://github.com/alvaro911/youtube_search/blob/master/app.js
 
 
-- [ ] Understanding the difference between HTTP methods (get, post, load, etc) and their uses - *Summerize*
+- [x] Understanding of asynchronous concepts and implications such as callbacks - *Summerize*
 
 
-- [ ] Understanding of error handling and promises - *Summerize and codepen example*
+- [x] Ability to implement AJAX calls in a project - *Summerize and example*
+
+
+- [x] Understanding the difference between HTTP methods (get, post, load, etc) and their uses - *Summerize*
+
+
+- [x] Understanding of error handling and promises - *Summerize and codepen example*
 
 ##### HTTP Methods
+      https://github.com/TechtonicGroup/Admin2/blob/develop/src/app/core/services/template-builder/template-builder.service.ts
 
-- [ ] Understands difference between HTTP Methods POST, GET, and PUT - *Summerize*
+- [x] Understands difference between HTTP Methods POST, GET, and PUT - *Summerize*
 
 
-- [ ] Understands difference between AJAX and HTTP Methods -- *Summerize* Example ( **AJAX, or Asynchronous JavaScript and XML, is a jQuery wrapper that implements the  DOM's built in XMLHttpRequest Object, which enables asynchronous interaction with the server (ie the page can be updated or data sent to the server without reloading).  HTTP methods indicate the action to be performed on the data in the server, whether it be get, put, post, delete, patch, etc.* *  )
+- [x] Understands difference between AJAX and HTTP Methods -- *Summerize* Example ( **AJAX, or Asynchronous JavaScript and XML, is a jQuery wrapper that implements the  DOM's built in XMLHttpRequest Object, which enables asynchronous interaction with the server (ie the page can be updated or data sent to the server without reloading).  HTTP methods indicate the action to be performed on the data in the server, whether it be get, put, post, delete, patch, etc.* *  )
 
 ##### jQuery
 
-- [ ] Understands where to inject script files and how to make it function - *Summerize and example*
+- [x] Understands where to inject script files and how to make it function - *Summerize and example*
 
 
-- [ ] Understanding of basic operations & functions - *Summerize*
+- [x] Understanding of basic operations & functions - *Summerize*
 
 
-- [ ] Able to add localized scripts - *Summerize*
+- [x] Able to add localized scripts - *Summerize*
 
 ### 3. DATABASE DEVELOPMENT - *Summerize and example*
 
-- [ ] Understands the difference between a relational database and document based database
+- [x] Understands the difference between a relational database and document based database
 
 ##### MongoDB - *Summerize and example*
 
-- Knowledge of basic installation of MongoDB and C Driver, JSON, schema design, querying, insertion of data, indexing & working with C# driver
-- Able to build a MongoDB-based app
-- Can Write repository methods that perform basic CRUD operations
-- Able to interact with MongoDB documents, & database collections using either RoboMongo or MongoVUE
+-[x] Knowledge of basic installation of MongoDB and C Driver, JSON, schema design, querying, insertion of data, indexing & working with C# driver
+-[x] Able to build a MongoDB-based app
+-[x] Can Write repository methods that perform basic CRUD operations
+-[x] Able to interact with MongoDB documents, & database collections using either RoboMongo or MongoVUE
 
 **SQL**
 
