@@ -101,6 +101,8 @@ https://github.com/alvaro911/youtube_search/blob/master/app.js
 
 ##### jQuery
 
+https://github.com/alvaroTech911/js_library/tree/feature/withInit/src
+
 - [x] Understands where to inject script files and how to make it function - *Summerize and example*
 
 
@@ -110,6 +112,8 @@ https://github.com/alvaro911/youtube_search/blob/master/app.js
 - [x] Able to add localized scripts - *Summerize*
 
 ### 3. DATABASE DEVELOPMENT - *Summerize and example*
+
+https://github.com/alvaro911/tourny-maker-server/blob/master/src/modules/user/user.model.js
 
 - [x] Understands the difference between a relational database and document based database
 
@@ -167,9 +171,15 @@ https://github.com/alvaro911/youtube_search/blob/master/app.js
 
 ##### Ruby on Rails - *Summerize and elaborate similar to above c# only one backend needs to be met*
 
-- Understand how an application accesses stored data, and how to reduce load by steamlining data requests
-- Strong knowledge of gems, both to locate and install simple add-ons to their application, and create their own custom gems
-- Knowledge of unit testing and Spec to produce clean, tested code
+- [x] Understand how an application accesses stored data, and how to reduce load by streamlining data requests
+
+- [x] Strong knowledge of gems, both to locate and install simple add-ons to their application, and create their own custom gems
+
+- [ ] Knowledge of unit testing and Spec to produce clean, tested code
+
+##### NodeJS - *Summerize and elaborate similar to above c# only one backend needs to be met*
+
+https://github.com/alvaro911/tourny-maker-server/tree/master/src
 
 ##### PHP - *Summerize and elaborate similar to above c# only one backend needs to be met*
 
@@ -179,117 +189,103 @@ https://github.com/alvaro911/youtube_search/blob/master/app.js
 
 ##### APIs - *Summerize and provide example repo*
 
-- [ ] Create modern, REST API's from existing information assets
+https://github.com/alvaro911/tourny-maker-server/blob/master/src/modules/tournament/tournament.route.js
+
+- [x] Create modern, REST API's from existing information assets
 
 
 - [ ] Integrates and orchestrates enterprise services across silos
 
 
-- [ ] Secure and authorize information assets exposed via APIs
+- [x] Secure and authorize information assets exposed via APIs
+https://github.com/alvaro911/tourny-maker-server/blob/master/src/services/auth.services.js
 
 
-- [ ] Understanding C.R.U.D
+- [x] Understanding C.R.U.D
 
 ### 5. CODING STANDARDS
 
 ##### Code Formatting
 
-- [ ] While going through code, check the code formatting to improve readability and ensure there are no blockers
+- [x] While going through code, check the code formatting to improve readability and ensure there are no blockers
 
 ##### Architecture - *Summerize with example codebase (doesnt need to be yours but be able to explain)*
+Front end: https://github.com/alvaro911/tourny-maker
 
-- [ ] Separation of Concerns followed
+Back end: https://github.com/alvaro911/tourny-maker-server
 
-
-- [ ] Split into respective files (HTML, JavaScript and CSS)
-
-
-- [ ] Split into multiple layers and tiers as per requirements (Presentation, Business, and Data Layers)
+- [x] Separation of Concerns followed
 
 
-- [ ] Code is in sync with existing code patterns/technologies
+- [x] Split into respective files (HTML, JavaScript and CSS)
 
 
-- [ ] Design patterns: Use appropriate design pattern (if if helps), after completely understanding the problem and context
+- [x] Split into multiple layers and tiers as per requirements (Presentation, Business, and Data Layers)
+
+
+- [x] Code is in sync with existing code patterns/technologies
+
+
+- [x] Design patterns: Use appropriate design pattern (if if helps), after completely understanding the problem and context
 
 ##### Coding Best Practices - *Summerize*
 
-- [ ] No hard coding, use constants/configuration values
+- [x] No hard coding, use constants/configuration values
 
 
-- [ ] Group similar values under an enumeration (enum)
+- [x] Group similar values under an enumeration (enum)
 
 
-- [ ] Comments - Do not write comments for what you are doing, instead write comments on why you are doing. Specify about any hacks workaround and temporary fixes. Additionally mention pending tasks in your to-do comments, which can be tracked easily
+- [x] Comments - Do not write comments for what you are doing, instead write comments on why you are doing. Specify about any hacks workaround and temporary fixes. Additionally mention pending tasks in your to-do comments, which can be tracked easily
 
 
-- [ ] Avoid multiple if/else blocks
+- [x] Avoid multiple if/else blocks
 
 
-- [ ] Use framework features, wherever possible instead of writing custom code
+- [x] Use framework features, wherever possible instead of writing custom code
 
 ##### Non Functional Requirements - *Summerize*
 
-- [ ] a.) Maintainability (Supportability) - The application should require the least amount of effort to support in the near future. It should be easy to identify, fix, and detect.
-
-      EXAMPLE
-
-      ​	Readability: Code should be self-explanatory. Get a feel of story reading. whlile going through code. Use appropriate name for variables, functions and classes. If you are taking more time to understand  the code, then either code needs refactoring or at least comments have to be written to make it clear.
-
-      ​	Testability: The code should be easy to test. Refactor into separate function (if required). Use interfaces while talking to other layers, as interfaces can be mocked easily. Try to avoid static functions, singleton classes as these are not easily testable by mocks.
-
-      ​	Debuggability: Provide support to log the flow of control, paramater data and exception details to find the root cause easily. if you are using Log4Net like component then add support for database logging also as querying the log table is easy.
-
-      ​	Configurability: Keep the configurable values in place (XML file, database table) so that no code changes are required, if the data is changed frequently.
+- [x] a.) Maintainability (Supportability) - The application should require the least amount of effort to support in the near future. It should be easy to identify, fix, and detect.
 
 
-- [ ] b.) Reusability - *Summerize*
-
-      EXAMPLE
-
-      ​	DRY (Do not Repeat Yourself) principle: The same code should not be repeated more than twice
-
-      ​	Consider reusable services, functions and components
-
-      ​	Consider generic functions and classes
+- [x] b.) Reusability - *Summerize*
 
 
-- [ ] c.) Reliability - Exception handling and cleanup (dispose) resources. - *Summerize*
+- [x] c.) Reliability - Exception handling and cleanup (dispose) resources. - *Summerize*
+https://github.com/alvaro911/tourny-maker/blob/master/src/actions/matchesActions.js
+(Try or catch)
+
+
+- [x] d.) Extensibility - Easy to add enhancements with minimal changes to existing code. One component should be easily replaceable by a better component. - *Summerize*
 
 
 
-- [ ] d.) Extensibility - Easy to add enhancements with minimal changes to existing code. One component should be easily replaceable by a better component. - *Summerize*
+- [x] e.) Security - Authentication, authorization, input data validation against security threats such as SQL injections and Cross Site Scripting (XSS), encrypting the sensitive data (passwords, credit card information etc.) - *Summerize (This can be very high level)*
 
 
 
-- [ ] e.) Security - Authentication, authorization, input data validation against security threats such as SQL injections and Cross Site Scripting (XSS), encrypting the sensitive data (passwords, credit card information etc.) - *Summerize (This can be very high level)*
-
-
-
-- [ ] f.) Performance  - *Summerize*
-
-      Use a data type that best suits the needs such as StringBuilder, generic collection classes - *Example*
-
-      Lazy loading asynchronous and parallel processing - *Example*
-
-      Caching and session/application data - *Summerize*
+- [x] f.) Performance  - *Summerize*
+https://github.com/alvaro911/tourny-maker/blob/master/src/actions/userActions.js
 
 - [ ] g.) Scalability - Consider if it supports a large user base/data? Can this be deployed into web farms? - *Summerize*
 
 
 
-- [ ] h.) Usability - Put yourself in the shoes of a end-user and ascertain, if the user interface/API is easy to understand and use. If you are not convinced with the user interface design, then start discussing your ideas with the business analyst - *Summerize*
+- [x] h.) Usability - Put yourself in the shoes of a end-user and ascertain, if the user interface/API is easy to understand and use. If you are not convinced with the user interface design, then start discussing your ideas with the business analyst - *Summerize*
 
 
 ##### Object-Oriented Analysis and Design (OOAD) Principles - *Summerize and show example*
 
-- [ ] Single Responsibility Principle (SRS): Do not place more than one responsibility into a single class of function, refactor into separate classes and functions
+https://github.com/alvaroTech911/js_library/tree/feature/withInit/src
+
+- [x] Single Responsibility Principle (SRS): Do not place more than one responsibility into a single class of function, refactor into separate classes and functions
 
 
-- [ ] Open Closed Principle: While adding new functionality, existing code should not be modified. New functionality should be written in new classes and functions
+- [x] Open Closed Principle: While adding new functionality, existing code should not be modified. New functionality should be written in new classes and functions
 
 
-- [ ] Liskov substitutability principle: The child class should not change the behavior (meaning) of the parent class. The child classcan be used as a substitute for a base class.
+- [x] Liskov substitutability principle: The child class should not change the behavior (meaning) of the parent class. The child classcan be used as a substitute for a base class.
       - Completed Interface Polygons class
 
 
@@ -297,33 +293,33 @@ https://github.com/alvaro911/youtube_search/blob/master/app.js
       - Demonstrated in MVCMovie project: EXAMPLE Repo
 
 
-- [ ] Dependency Injection: Do not hardcode the dependencies, instead inject them
-      - *Exposure to these concepts in MVVM example and summary*
+- [x] Dependency Injection: Do not hardcode the dependencies, instead inject them
+https://github.com/FreeCodeCamp-SLC/weather-ng2/blob/master/src/app/app.module.ts
 
 ### 6. GIT - *Summerize*
 
-- [ ] Solid knowledge of how source control works why it's important using either CLI or GUI tools
+- [x] Solid knowledge of how source control works why it's important using either CLI or GUI tools
 
 
-- [ ] Know the basic commands: clone, push, fetch, pull, commit
+- [x] Know the basic commands: clone, push, fetch, pull, commit
 
 
-- [ ] Understand what remotes are
+- [x] Understand what remotes are
 
 
-- [ ] Understand how to hide, add, remove, and stash files
+- [x] Understand how to hide, add, remove, and stash files
 
 
-- [ ] Understand how to branch and merge
+- [x] Understand how to branch and merge
 
 
-- [ ] Understand how to resolve merge conflicts
+- [x] Understand how to resolve merge conflicts
 
 
-- [ ] Can reliably commit based on project needs, with communication to the rest of the team
+- [x] Can reliably commit based on project needs, with communication to the rest of the team
 
 
-- [ ] Uses relevant and important information in commit notes
+- [x] Uses relevant and important information in commit notes
 
 
-- [ ] Understands differences between HTTPS SSH validation
+- [x] Understands differences between HTTPS SSH validation
